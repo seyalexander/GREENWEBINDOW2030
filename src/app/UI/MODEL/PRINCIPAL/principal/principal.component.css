@@ -1,0 +1,39 @@
+header {
+    display: flex;
+    height: 4rem;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    box-sizing: border-box;
+    background-color: rgb(0, 187, 178);
+}
+
+header .logo-empresa h2 {
+    color: white;
+}
+
+header .menu-opciones ul {
+    display: flex;
+    gap: .8rem;
+    height: 100%;
+}
+
+header .menu-opciones ul li {
+    list-style: none;
+    border-bottom: 4px solid transparent;
+    transition: all .3s ease-out;
+    padding: 0 .8rem;
+ }
+
+header .menu-opciones ul li a{
+   text-decoration: none;
+   color: white;
+   font-weight: 600;
+}
+
+header .menu-opciones ul li:hover {
+    transition: all .3s ease-in;
+    border-bottom: 4px solid rgb(1, 87, 82);
+}
+

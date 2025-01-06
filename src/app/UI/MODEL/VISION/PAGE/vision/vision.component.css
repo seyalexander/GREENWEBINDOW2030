@@ -1,0 +1,22 @@
+#mision {
+    background-color: white;
+    padding: 40px 20px;
+    margin-top: 20px;
+}
+
+#mision .content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#mision h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#mision p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+}
