@@ -6,6 +6,11 @@ export const routes: Routes = [
         loadComponent: () => import('./UI/MODEL/PRINCIPAL/principal/principal.component').then(m => m.PrincipalComponent),
         children: [
             {
+              path: '',
+              redirectTo: 'inicio',
+              pathMatch: 'full',
+            },
+            {
                 path: 'inicio',
                 loadComponent: () => import('./UI/MODEL/INICIO/PAGE/inicio-page/inicio-page.component').then(m => m.InicioPageComponent),
             },
@@ -51,6 +56,6 @@ export const routes: Routes = [
             },
 
         ]
-    },
+    }
 
 ];
