@@ -12,7 +12,7 @@
   <div class="Item-proyectos">
     <ul>
       @for (item of mainMenu.accessLink; track $index) {
-        <li>
+        <li [class]="item.clase">
           <a [routerLink]="item.route" >
             <div class="container-img">
               <img
@@ -20,7 +20,6 @@
                 alt="imagen proyecto"
               />
             </div>
-            <div class="divisor"></div>
             <h3>{{item.name}}</h3>
           </a>
           <div class="hover-item-proyecto"></div>

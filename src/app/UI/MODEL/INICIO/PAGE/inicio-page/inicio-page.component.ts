@@ -36,36 +36,42 @@ export class InicioPageComponent {
         name: 'PATHS OF VALUE',
         imagen: 'https://www.dropbox.com/scl/fi/wboum1avbk7do6jwm5dzh/PROYECTO-1.png?rlkey=w8vz8a9jak1mgz0z4p45v4bl1&st=2g877m6n&raw=1',
         icon: 'uil uil-document-info',
+        clase: 'cuadro-1',
         route: ['/','proyecto-1']
       },
       {
         name: 'GREENER CLUB',
         imagen: 'https://www.dropbox.com/scl/fi/x9fgwkayjyrgqsgts6r5y/PROYECTO-2.png?rlkey=pqh3jt7pyynftntc7fv332xdx&st=xjprlw3w&raw=1',
         icon: 'uil uil-document-info',
+        clase: 'cuadro-2',
         route: ['/','proyecto-2']
       },
       {
         name: 'LIVING LIBRARY',
         imagen: 'https://www.dropbox.com/scl/fi/wboum1avbk7do6jwm5dzh/PROYECTO-1.png?rlkey=w8vz8a9jak1mgz0z4p45v4bl1&st=2g877m6n&raw=1',
         icon: 'uil uil-document-info',
+        clase: 'cuadro-3',
         route: ['/','proyecto-3']
       },
       {
         name: 'ONE HAND TO HELP',
         imagen: 'https://www.dropbox.com/scl/fi/wboum1avbk7do6jwm5dzh/PROYECTO-1.png?rlkey=w8vz8a9jak1mgz0z4p45v4bl1&st=2g877m6n&raw=1',
         icon: 'uil uil-document-info',
+        clase: 'cuadro-4',
         route: ['/','proyecto-4']
       },
       {
         name: 'ROOTS OF EMPATHY',
         imagen: 'https://www.dropbox.com/scl/fi/wboum1avbk7do6jwm5dzh/PROYECTO-1.png?rlkey=w8vz8a9jak1mgz0z4p45v4bl1&st=2g877m6n&raw=1',
         icon: 'uil uil-document-info',
+        clase: 'cuadro-5',
         route: ['/','proyecto-5']
       },
       {
         name: ' ECO-PAWS PET PROJECT',
         imagen: 'https://www.dropbox.com/scl/fi/wboum1avbk7do6jwm5dzh/PROYECTO-1.png?rlkey=w8vz8a9jak1mgz0z4p45v4bl1&st=2g877m6n&raw=1',
         icon: 'uil uil-document-info',
+        clase: 'cuadro-6',
         route: ['/','proyecto-6']
       }
     ]

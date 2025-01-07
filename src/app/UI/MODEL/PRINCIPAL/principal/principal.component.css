@@ -6,10 +6,7 @@ header {
     align-items: center;
     padding: 1rem 2rem;
     box-sizing: border-box;
-    background: url('../../../../../assets/fondoheader.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background: linear-gradient(to right, #d4afb9,#7ec4cf );
 }
 
 header .logo-empresa {
