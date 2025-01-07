@@ -23,31 +23,36 @@
 }
 
 .proyecto-texto .titulo {
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: bold;
     margin-bottom: 20px;
     color: #9cadce;
     text-align: right;
 }
 
+.proyecto-texto .titulo span {
+  background-color: #9cadce;
+  color: white;
+}
+
+
 .proyecto-texto .descripcion {
-    font-size: 18px;
+    font-size: 1rem;
     line-height: 1.6;
     color: #666;
     text-align: right;
 }
 
 .proyecto-imagen {
-    flex: 1;
-    height: 50rem;
-    width: 40rem;
+    flex: .7;
+    height: 35rem;
     text-align: center;
     background: linear-gradient(to bottom, #9cadce, #7ec4cf);
     border-radius: 0 0 30px 30px;
 }
 
 .proyecto-imagen .imagen-proyecto {
-    width: 100%;
+    width: 80%;
     max-width: 500px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 0 0 10px 10px;
@@ -92,10 +97,10 @@
 }
 
 .encuesta-contenido {
-    width: 50%;
+    width: 70%;
     margin: 0 auto;
     padding: 20px;
-    background: linear-gradient(to right, #fff,#daeaf6 );
+    background: linear-gradient(to right, #d1cfe2,#daeaf6 );
     border-radius: 8px;
     display: flex;
     /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); */

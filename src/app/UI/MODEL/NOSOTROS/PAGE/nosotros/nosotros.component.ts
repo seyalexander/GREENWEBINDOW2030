@@ -1,11 +1,15 @@
 import { Component } from '@angular/core';
 import { CarouselComponent } from '../../../../SHARED/carousel/carousel.component';
+import { DistribucionComponent } from '../../COMPONENTS/DISTRIBUCION/distribucion/distribucion.component';
+import { ItemPrincipalComponent } from '../../COMPONENTS/DISTRIBUCION/item-principal/item-principal.component';
 
 @Component({
   selector: 'app-nosotros',
   standalone: true,
   imports: [
-    CarouselComponent
+    CarouselComponent,
+    DistribucionComponent,
+    ItemPrincipalComponent
   ],
   templateUrl: './nosotros.component.html',
   styleUrl: './nosotros.component.css'

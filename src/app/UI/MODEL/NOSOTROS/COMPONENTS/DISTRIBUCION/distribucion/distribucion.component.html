@@ -1,0 +1,8 @@
+<div class="equipos">
+  @for (item of mainMenu.accessLink; track $index) {
+    <item-distribucion
+    [imagen]="item.imagen"
+    [titulo]="item.title"
+    [descripcion]="item.descripcion"/>
+  }
+</div>
