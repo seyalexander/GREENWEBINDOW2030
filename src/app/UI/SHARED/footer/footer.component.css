@@ -1,0 +1,27 @@
+.footer {
+  height: 7rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 4rem;
+  box-sizing: border-box;
+  background-color: #daeaf6;
+  margin-top: 4rem;
+}
+
+.footer-logo {
+  height: 100%;
+  display: grid;
+  justify-content: end;
+  align-items: center;
+}
+
+.footer-logo h2 {
+  color: #353535;
+}
+
+.footer-texto {
+  height: 100%;
+  display: grid;
+  justify-content: end;
+  align-items: center;
+}
