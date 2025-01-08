@@ -102,11 +102,11 @@
 @media (min-width: 601px) {
   /* PROYECTOS */
 
-  /* .proyectos {
+  .proyectos {
     width: 100%;
     margin: 2rem 0;
     box-sizing: border-box;
-    padding: 2rem 4rem;
+    padding: 2rem 0rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -114,7 +114,7 @@
 
   .proyectos .subTitle {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     color: rgb(0, 187, 178);
     margin: 0;
     font-weight: 600;
@@ -122,7 +122,7 @@
 
   .proyectos h2 {
     text-align: center;
-    font-size: 3.5rem;
+    font-size: 2rem;
     color: rgb(153, 153, 153);
     margin: 0;
     font-weight: bolder;
@@ -134,7 +134,7 @@
   }
 
   .proyectos .Item-proyectos ul {
-    width: 80rem;
+    width: 100%;
     display: flex;
     box-sizing: border-box;
     flex-wrap: wrap;
@@ -145,7 +145,7 @@
 
   .proyectos .Item-proyectos ul li {
     width: 30%;
-    height: 20rem;
+    height: 14rem;
     list-style: none;
   }
 
@@ -161,41 +161,39 @@
     background-color: #d1cfe2;
   }
 
+
   .proyectos .Item-proyectos ul li a {
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    height: 100%;
+    flex-direction: row;
+    padding: 0 .4rem;
   }
 
   .proyectos .Item-proyectos ul li a .container-img {
-    width: 100%;
-    height: 10rem;
-    border-radius: 10px;
-    overflow: hidden;
-    padding: 1rem;
+    width: 30rem;
+    height: 12rem;
+    border-radius: 0px;
+    padding: 0;
   }
 
   .proyectos .Item-proyectos ul li a .container-img img {
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
     object-fit: cover;
     mix-blend-mode: multiply;
     transition: transform 0.3s ease;
   }
 
   .proyectos .Item-proyectos ul li a h3 {
-    width: 100%;
     text-align: center;
     margin: 0;
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: rgb(1, 87, 82);
     font-weight: bold;
   }
 
   .proyectos .Item-proyectos ul li:hover .container-img img {
     transform: scale(1.1);
-  } */
+  }
+
 }
 
 /* Para escritorios (pantallas grandes) */
