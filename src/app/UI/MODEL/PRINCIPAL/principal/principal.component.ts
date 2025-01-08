@@ -46,4 +46,10 @@ export class PrincipalComponent {
       }
     ]
   }
+
+  menuOpen: boolean = false;
+
+  toggleMenu() {
+    this.menuOpen = !this.menuOpen;
+  }
 }

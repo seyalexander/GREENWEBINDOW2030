@@ -1,8 +1,5 @@
-
-/* CAROUSEL */
-
 .carousel {
-  height: 40rem;
+  height: 35rem;
   display: flex;
   justify-content: center;
   align-items: center;
