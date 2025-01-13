@@ -150,6 +150,14 @@
     text-align: right;
   }
 
+  .proyecto-imagen {
+    flex: 0.7;
+    height: 18rem;
+    text-align: center;
+    background: linear-gradient(to bottom, #9cadce, #7ec4cf);
+    border-radius: 0 0 30px 30px;
+  }
+
 
   .proyecto-imagen .imagen-proyecto {
     width: 80%;
@@ -194,6 +202,14 @@
 
   .proyecto-texto .descripcion {
     text-align: right;
+  }
+
+  .proyecto-imagen {
+    flex: 0.7;
+    height: 18rem;
+    text-align: center;
+    background: linear-gradient(to bottom, #9cadce, #7ec4cf);
+    border-radius: 0 0 30px 30px;
   }
 
   .proyecto-imagen .imagen-proyecto {
