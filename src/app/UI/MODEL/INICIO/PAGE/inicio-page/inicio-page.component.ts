@@ -55,7 +55,7 @@ export class InicioPageComponent {
       },
       {
         name: 'ONE HAND TO HELP',
-        imagen: 'https://www.dropbox.com/scl/fi/wboum1avbk7do6jwm5dzh/PROYECTO-1.png?rlkey=w8vz8a9jak1mgz0z4p45v4bl1&st=2g877m6n&raw=1',
+        imagen: 'https://www.dropbox.com/scl/fi/tow847g5v41rciuv3wxnv/PROYECTO-4.png?rlkey=xz27vb9nij6x5357j7viuk59d&st=as2q03zh&raw=1',
         icon: 'uil uil-document-info',
         clase: 'cuadro-4',
         route: ['/','proyecto-4']
