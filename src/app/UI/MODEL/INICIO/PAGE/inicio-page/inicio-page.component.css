@@ -99,6 +99,24 @@
   transform: scale(1.1);
 }
 
+
+.proyecto-imagen {
+  flex: 0.7;
+  height: 20rem;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  background: linear-gradient(to bottom, #9cadce, #7ec4cf);
+}
+
+
+.proyecto-imagen .imagen-proyecto {
+  width: 100rem;
+  max-width: 500px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
 @media (min-width: 601px) {
   /* PROYECTOS */
 
