@@ -52,9 +52,15 @@
   border-radius: 0 0 30px 30px;
 }
 
-.proyecto-imagen .imagen-proyecto {
+/* .proyecto-imagen .imagen-proyecto {
   width: 80%;
   max-width: 500px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 0 0 10px 10px;
+} */
+
+.proyecto-imagen .video-horizontal {
+  width: 100%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 0 0 10px 10px;
 }
@@ -120,11 +126,9 @@
 }
 
 @media (min-width: 601px) {
-
-
-.proyecto .contenedor {
-  width: 80rem;
-}
+  .proyecto .contenedor {
+    width: 80rem;
+  }
 
   .proyecto-contenido {
     flex-direction: row;
@@ -137,7 +141,6 @@
     margin-right: 6rem;
   }
 
-
   .proyecto-texto .titulo {
     font-size: 3rem;
     text-align: right;
@@ -147,49 +150,11 @@
     text-align: right;
   }
 
-  .pdf-link {
-    width: 8rem;
-  }
-
-  .encuesta-seccion {
-    margin-top: 6rem;
-  }
-
-
-.encuesta-contenido {
-  flex-direction: row;
-}
-
-
-
-}
-
-@media (min-width: 1025px) {
-
-
-.proyecto .contenedor {
-  width: 80rem;
-}
-
-  .proyecto-contenido {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .proyecto-texto {
-    flex: 1;
-    min-width: 300px;
-    margin-right: 6rem;
-  }
-
-
-  .proyecto-texto .titulo {
-    font-size: 3rem;
-    text-align: right;
-  }
-
-  .proyecto-texto .descripcion {
-    text-align: right;
+  .proyecto-imagen .imagen-proyecto {
+    width: 80%;
+    max-width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 10px 10px;
   }
 
   .pdf-link {
@@ -205,5 +170,47 @@
   }
 }
 
+@media (min-width: 1025px) {
+  .proyecto .contenedor {
+    width: 80rem;
+  }
 
+  .proyecto-contenido {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
+  .proyecto-texto {
+    flex: 1;
+    min-width: 300px;
+    margin-right: 6rem;
+  }
+
+  .proyecto-texto .titulo {
+    font-size: 3rem;
+    text-align: right;
+  }
+
+  .proyecto-texto .descripcion {
+    text-align: right;
+  }
+
+  .proyecto-imagen .imagen-proyecto {
+    width: 80%;
+    max-width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 10px 10px;
+  }
+
+  .pdf-link {
+    width: 8rem;
+  }
+
+  .encuesta-seccion {
+    margin-top: 6rem;
+  }
+
+  .encuesta-contenido {
+    flex-direction: row;
+  }
+}
