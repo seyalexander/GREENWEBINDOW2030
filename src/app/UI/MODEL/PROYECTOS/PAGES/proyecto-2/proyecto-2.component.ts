@@ -11,9 +11,9 @@ import { CarouselComponent } from '../../../../SHARED/carousel/carousel.componen
   styleUrl: './proyecto-2.component.css'
 })
 export class Proyecto2Component {
-  imagen_a: string = "https://www.dropbox.com/scl/fi/u7427cpq0jux3qdtgvgyf/green-webindow.png?rlkey=tuzd1vj5al3mcer34bj0jochz&st=swqqocar&raw=1"
-  imagen_b: string = "https://www.dropbox.com/scl/fi/jd0jf2m8kiuhxn8rx93xu/WhatsApp-Image-2024-12-28-at-3.38.02-PM-7.jpeg?rlkey=q5tbbe24zre67lxcb1mqjnsue&st=xp76p23r&raw=1"
-  imagen_c: string = "https://www.dropbox.com/scl/fi/grxpcoilrhyo60367p18v/1.jpg?rlkey=wl4d1kkjf76rgkqo73083qk2y&st=ty8tmcae&raw=1"
-  imagen_d: string = "https://images.pexels.com/photos/666870/pexels-photo-666870.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  imagen_a: string = "https://www.dropbox.com/scl/fi/e4ev6r3a6y018iawxqkii/20241210_101057-0.jpg?rlkey=fyou10j2if1kvw7h8mv5f2xsq&st=35kttok0&raw=1"
+  imagen_b: string = "https://www.dropbox.com/scl/fi/e54gobrhoxtmbj9oce9gh/20241223_110249.jpg?rlkey=xrhvil6adva2d9msqqn8lix8w&st=spvmef1j&raw=1"
+  imagen_c: string = "https://www.dropbox.com/scl/fi/qle1ji85w4us7962xirke/IMG_20241216_182210.jpg?rlkey=4ge19bs2yn51314xixth8vywq&st=9n9bkpgw&raw=1"
+  imagen_d: string = "https://www.dropbox.com/scl/fi/0bqxqphj5hxdkkbesxes7/20241210_113143.jpg?rlkey=iatvwo3y6i96s44g7o2jtsvtu&st=9hjqoqh6&raw=1"
   imagen_e: string = "https://images.pexels.com/photos/26201108/pexels-photo-26201108/free-photo-of-perro-mascota-cabeza-habitacion.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 }
