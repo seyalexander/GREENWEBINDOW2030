@@ -28,15 +28,7 @@
 .equipo {
   display: flex;
   justify-content: center;
-  gap: 40px;
-  flex-wrap: wrap;
-  margin-top: 40px;
-}
-
-
-.equipos {
-  display: flex;
-  justify-content: center;
+  align-items: center;
   gap: 40px;
   flex-wrap: wrap;
   margin-top: 40px;
