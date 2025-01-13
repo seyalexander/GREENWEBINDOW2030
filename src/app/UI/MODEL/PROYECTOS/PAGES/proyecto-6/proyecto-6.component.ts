@@ -11,9 +11,9 @@ import { CarouselComponent } from '../../../../SHARED/carousel/carousel.componen
   styleUrl: './proyecto-6.component.css'
 })
 export class Proyecto6Component {
-  imagen_a: string = "https://www.dropbox.com/scl/fi/u7427cpq0jux3qdtgvgyf/green-webindow.png?rlkey=tuzd1vj5al3mcer34bj0jochz&st=swqqocar&raw=1"
-  imagen_b: string = "https://www.dropbox.com/scl/fi/jd0jf2m8kiuhxn8rx93xu/WhatsApp-Image-2024-12-28-at-3.38.02-PM-7.jpeg?rlkey=q5tbbe24zre67lxcb1mqjnsue&st=xp76p23r&raw=1"
-  imagen_c: string = "https://www.dropbox.com/scl/fi/grxpcoilrhyo60367p18v/1.jpg?rlkey=wl4d1kkjf76rgkqo73083qk2y&st=ty8tmcae&raw=1"
-  imagen_d: string = "https://images.pexels.com/photos/666870/pexels-photo-666870.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-  imagen_e: string = "https://images.pexels.com/photos/26201108/pexels-photo-26201108/free-photo-of-perro-mascota-cabeza-habitacion.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  imagen_a: string = "https://www.dropbox.com/scl/fi/cd5r6szrvspgcku8sofju/WhatsApp-Image-2024-12-16-at-8.50.31-AM.jpeg?rlkey=wtfbofcg8wrgdore4a4lb5hwp&st=ctj3ekxv&raw=1"
+  imagen_b: string = "https://www.dropbox.com/scl/fi/sr5g5tx9ioglmw65qva2k/WhatsApp-Image-2024-12-16-at-8.47.49-AM.jpeg?rlkey=s77oaiho4pv3fa7tftsln7hxw&st=4pcmdfw2&raw=1"
+  imagen_c: string = "https://www.dropbox.com/scl/fi/tq42de4n35hld20wz5vao/WhatsApp-Image-2024-12-16-at-8.47.44-AM.jpeg?rlkey=n1t7j76kpmxm0nli42ndeotsi&st=qurdqsgk&raw=1"
+  imagen_d: string = "https://www.dropbox.com/scl/fi/kh9la6rxt2kb8kixu7dtv/WhatsApp-Image-2024-12-16-at-8.50.32-AM-2.jpeg?rlkey=jit7j496nku406yt3vlbkxj9y&st=h8ch22x3&raw=1"
+  imagen_e: string = "https://www.dropbox.com/scl/fi/kt4s951fkojxaq6rpdi23/WhatsApp-Image-2024-12-16-at-8.50.34-AM.jpeg?rlkey=58vkykcoguzwcxwwfbd05hjy7&st=6nx2dcil&raw=1"
 }
