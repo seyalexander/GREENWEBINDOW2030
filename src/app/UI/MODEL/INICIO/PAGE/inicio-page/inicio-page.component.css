@@ -67,7 +67,8 @@ targets-model-2 {
 
 
 .proyecto-imagen .imagen-proyecto {
-  width: 100rem;
+  width: 24rem;
+  object-fit: cover;
   max-width: 500px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
