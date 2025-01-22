@@ -144,5 +144,17 @@ targets-model-2 {
     width: 22rem;
   }
 
+  .proyecto-imagen {
+    height: 40rem;
+  }
+
+  .proyecto-imagen .imagen-proyecto {
+    width: 100rem;
+    max-width: 80rem;
+    height: 30rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+
 
 }

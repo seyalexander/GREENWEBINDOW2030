@@ -54,3 +54,21 @@
     </div>
   </div>
 </section>
+
+<section class="proyectos">
+  <p class="subTitle">Nuestras</p>
+  <h2>CLASES Y PROYECTOS</h2>
+  <div class="Item-proyectos">
+    <div class="lista-proyecto">
+      @for (item of mainMenu.clasesproyectosLink; track $index) {
+        <targets-model-2
+        [imagen]="item.imagen"
+        [clase]="item.clase"
+        [titulo]="item.name"
+        [detalle]="item.detalle"
+        [router]="item.route"
+        />
+      }
+    </div>
+  </div>
+</section>
