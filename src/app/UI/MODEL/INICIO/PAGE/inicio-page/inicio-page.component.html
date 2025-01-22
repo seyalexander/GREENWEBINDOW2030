@@ -10,22 +10,16 @@
   <p class="subTitle">Nuestros</p>
   <h2>PROYECTOS</h2>
   <div class="Item-proyectos">
-    <ul>
+    <div class="lista-proyecto">
       @for (item of mainMenu.accessLink; track $index) {
-        <li [class]="item.clase">
-          <a [routerLink]="item.route" >
-            <div class="container-img">
-              <img
-                [src]="item.imagen"
-                alt="imagen proyecto"
-              />
-            </div>
-            <h3>{{item.name}}</h3>
-          </a>
-          <div class="hover-item-proyecto"></div>
-        </li>
+        <targets-model-2
+        [imagen]="item.imagen"
+        [clase]="item.clase"
+        [titulo]="item.name"
+        [detalle]="item.detalle"
+        />
       }
-    </ul>
+    </div>
   </div>
 </section>
 
