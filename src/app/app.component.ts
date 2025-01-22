@@ -1,6 +1,13 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { NavigationEnd, Event,Router, RouterOutlet } from '@angular/router';
 
+
+import { IStaticMethods } from 'preline/preline';
+declare global {
+  interface Window {
+    HSStaticMethods: IStaticMethods;
+  }
+}
 @Component({
   selector: 'app-root',
   imports: [RouterOutlet],
@@ -9,4 +16,15 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'landing';
+
+  constructor(private router: Router) {}
+  ngOnInit() {
+    this.router.events.subscribe((event: Event) => {
+      if (event instanceof NavigationEnd) {
+        setTimeout(() => {
+          window.HSStaticMethods.autoInit();
+        }, 100);
+      }
+    });
+  }
 }

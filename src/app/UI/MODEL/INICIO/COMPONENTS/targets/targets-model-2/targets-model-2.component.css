@@ -46,6 +46,7 @@ button {
 .container-detalle h1 {
   font-size: 1.2rem;
   text-align: center;
+  margin-top: 1rem;
 }
 
 .container-detalle p {
