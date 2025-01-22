@@ -54,6 +54,22 @@ export const routes: Routes = [
                 path: 'proyecto-6',
                 loadComponent: () => import('./UI/MODEL/PROYECTOS/PAGES/proyecto-6/proyecto-6.component').then(m => m.Proyecto6Component),
             },
+            {
+              path: 'evento-1',
+              loadComponent: () => import('./UI/MODEL/EVENTOS/tarjet-evento-1/tarjet-evento-1.component').then(m => m.TarjetEvento1Component),
+            },
+            {
+              path: 'evento-2',
+              loadComponent: () => import('./UI/MODEL/EVENTOS/tarjet-evento-2/tarjet-evento-2.component').then(m => m.TarjetEvento2Component),
+            },
+            {
+              path: 'evento-3',
+              loadComponent: () => import('./UI/MODEL/EVENTOS/tarjet-evento-3/tarjet-evento-3.component').then(m => m.TarjetEvento3Component),
+            },
+            {
+              path: 'evento-4',
+              loadComponent: () => import('./UI/MODEL/EVENTOS/tarjet-evento-4/tarjet-evento-4.component').then(m => m.TarjetEvento4Component),
+            },
 
         ]
     }

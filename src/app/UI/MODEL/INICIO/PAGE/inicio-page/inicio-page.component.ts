@@ -99,7 +99,7 @@ export class InicioPageComponent {
         icon: 'uil uil-document-info',
         clase: 'cuadro-1',
         detalle: '23 Enero - 12h a 22h - Tiers-lieu Espace des Langues - Université Rennes 2',
-        route: ['/','proyecto-1']
+        route: ['/','evento-1']
       },
       {
         name: 'Green Webindow 2030: Chan Chan: Identidad Cultural y la preservación de los Valores en la Actualidad. ',
@@ -107,7 +107,7 @@ export class InicioPageComponent {
         icon: 'uil uil-document-info',
         clase: 'cuadro-2',
         detalle: '27 Enero - 15h - 17h - Tiers-lieu Espace des Langues - Université Rennes 2',
-        route: ['/','proyecto-2']
+        route: ['/','evento-2']
       },
       {
         name: 'Identidad Universitaria: Un Reflejo de su Comunidad - Presentación: Proyecto: "Green Webindow 2030".  Dpto. Idiomas, Universidad Nacional de Trujillo,Perú',
@@ -115,7 +115,7 @@ export class InicioPageComponent {
         icon: 'uil uil-document-info',
         clase: 'cuadro-3',
         detalle: '3 de Febrero - 15h 45 ? - Salle L201',
-        route: ['/','proyecto-3']
+        route: ['/','evento-3']
       },
       {
         name: 'Green Webindow 2030:  La Lengua Materna para el desarrollo personal y la convivencia Propuesta método “SPENAC”',
@@ -123,7 +123,7 @@ export class InicioPageComponent {
         icon: 'uil uil-document-info',
         clase: 'cuadro-4',
         detalle: '10 de Febrero - 15h - 17h - Tiers-lieu Espace des Langues - Université Rennes 2',
-        route: ['/','proyecto-4']
+        route: ['/','evento-4']
       },
     ]
   }
