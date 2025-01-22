@@ -17,13 +17,9 @@
   background-color: #d4afb9;
 }
 
-.cuadro-1,
-.cuadro-2,
-.cuadro-3,
-.cuadro-4,
-.cuadro-5,
-.cuadro-6
- {
+button {
+  border: none;
+  width: 100%;
   height: 25rem;
   padding: 1rem;
   border-radius: 30px;
@@ -47,18 +43,23 @@
   height: 100%;
 }
 
+.container-detalle h1 {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.container-detalle p {
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 2rem;
+}
 
 
 @media (min-width: 601px) {
-  .cuadro-1,
-  .cuadro-2,
-  .cuadro-3,
-  .cuadro-4,
-  .cuadro-5,
-  .cuadro-6
-   {
-    width: 15rem;
-    height: 20rem;
+  button {
+    border: none;
+    width: 100%;
+    height: 25rem;
     padding: 1rem;
     border-radius: 30px;
   }

@@ -32,6 +32,7 @@
   width: 100%;
   display: grid;
   place-content: center;
+
 }
 
 .lista-proyecto{
@@ -65,9 +66,6 @@ targets-model-2 {
   max-width: 500px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
-
-
-
 }
 
 
@@ -102,14 +100,18 @@ targets-model-2 {
     font-weight: bolder;
   }
 
-  .Item-proyectosul ul{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-inline-start: 0px;
+  .Item-proyectos {
+    width: 100rem;
   }
 
+  .lista-proyecto {
+    width: 60rem;
+    display: flex;
+  }
 
+  targets-model-2 {
+    width: 16rem;
+  }
 }
 
 /* Para escritorios (pantallas grandes) */
@@ -119,10 +121,17 @@ targets-model-2 {
     font-size: 3rem;
   }
 
-  .Item-proyectosul ul{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-inline-start: 0px;
+  .Item-proyectos {
+    width: 100rem;
   }
+
+  .lista-proyecto {
+    width: 60rem;
+    display: flex;
+  }
+
+  targets-model-2 {
+    width: 16rem;
+  }
+
 }
