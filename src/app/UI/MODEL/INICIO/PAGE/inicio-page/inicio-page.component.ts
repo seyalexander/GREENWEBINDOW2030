@@ -98,7 +98,7 @@ export class InicioPageComponent {
         imagen: 'https://www.dropbox.com/scl/fi/wboum1avbk7do6jwm5dzh/PROYECTO-1.png?rlkey=w8vz8a9jak1mgz0z4p45v4bl1&st=2g877m6n&raw=1',
         icon: 'uil uil-document-info',
         clase: 'cuadro-1',
-        detalle: '23 Enero - 12h a 22h',
+        detalle: '23 Enero - 12h a 22h - Tiers-lieu Espace des Langues - Université Rennes 2',
         route: ['/','proyecto-1']
       },
       {
@@ -106,7 +106,7 @@ export class InicioPageComponent {
         imagen: 'https://www.dropbox.com/scl/fi/x9fgwkayjyrgqsgts6r5y/PROYECTO-2.png?rlkey=pqh3jt7pyynftntc7fv332xdx&st=xjprlw3w&raw=1',
         icon: 'uil uil-document-info',
         clase: 'cuadro-2',
-        detalle: '27 Enero - 15h - 17h',
+        detalle: '27 Enero - 15h - 17h - Tiers-lieu Espace des Langues - Université Rennes 2',
         route: ['/','proyecto-2']
       },
       {
@@ -114,7 +114,7 @@ export class InicioPageComponent {
         imagen: 'https://www.dropbox.com/scl/fi/9jb2u7m0uqf6t4nu428k5/PROYECTO-3.png?rlkey=r8zc5bqzpm4kyl0tcrt5byvbw&st=0zlx43rw&raw=1',
         icon: 'uil uil-document-info',
         clase: 'cuadro-3',
-        detalle: '3 de Febrero - 15h 45 ?',
+        detalle: '3 de Febrero - 15h 45 ? - Salle L201',
         route: ['/','proyecto-3']
       },
       {
@@ -122,7 +122,7 @@ export class InicioPageComponent {
         imagen: 'https://www.dropbox.com/scl/fi/tow847g5v41rciuv3wxnv/PROYECTO-4.png?rlkey=xz27vb9nij6x5357j7viuk59d&st=as2q03zh&raw=1',
         icon: 'uil uil-document-info',
         clase: 'cuadro-4',
-        detalle: '10 de Febrero - 15h - 17h',
+        detalle: '10 de Febrero - 15h - 17h - Tiers-lieu Espace des Langues - Université Rennes 2',
         route: ['/','proyecto-4']
       },
     ]
