@@ -1,68 +1,9 @@
-.proyecto {
-  display: grid;
-  place-content: center;
-  padding: 0rem 2rem;
-}
-
-.proyecto .contenedor {
-  width: 100%;
-}
-
-.proyecto-contenido {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 30px;
-}
-
-.proyecto-texto {
-  flex: 1;
-  min-width: 300px;
-  margin-right: 0rem;
-}
-
-.proyecto-texto .titulo {
-  font-size: 2rem;
-  font-weight: bold;
-  margin-bottom: 20px;
-  color: #9cadce;
-  text-align: center;
-}
-
-.proyecto-texto .titulo span {
-  background-color: #9cadce;
-  color: white;
-}
-
-.proyecto-texto .descripcion {
-  width: 100%;
-  font-size: 1rem;
-  line-height: 1.6;
-  color: #666;
-  text-align: center;
-}
-
-.proyecto-imagen {
-  flex: 0.7;
-  height: 35rem;
-  text-align: center;
-  background: linear-gradient(to bottom, #9cadce, #7ec4cf);
-  border-radius: 0 0 30px 30px;
-}
-
-.proyecto-imagen .imagen-proyecto {
-  width: 80%;
-  max-width: 500px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 0 0 10px 10px;
-}
 
 .container-opciones {
   display: flex;
   gap: 1rem;
-  justify-content: end;
+  margin-top: 1REM;
+  justify-content: CENTER;
 }
 
 .pdf-link {
@@ -122,33 +63,9 @@
 @media (min-width: 601px) {
 
 
-.proyecto .contenedor {
-  width: 80rem;
-}
-
-  .proyecto-contenido {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .proyecto-texto {
-    flex: 1;
-    min-width: 300px;
-    margin-right: 6rem;
-  }
-
-
-  .proyecto-texto .titulo {
-    font-size: 3rem;
-    text-align: right;
-  }
-
-  .proyecto-texto .descripcion {
-    text-align: right;
-  }
 
   .pdf-link {
-    width: 8rem;
+    width: auto;
   }
 
   .encuesta-seccion {
@@ -167,33 +84,8 @@
 @media (min-width: 1025px) {
 
 
-.proyecto .contenedor {
-  width: 80rem;
-}
-
-  .proyecto-contenido {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .proyecto-texto {
-    flex: 1;
-    min-width: 300px;
-    margin-right: 6rem;
-  }
-
-
-  .proyecto-texto .titulo {
-    font-size: 3rem;
-    text-align: right;
-  }
-
-  .proyecto-texto .descripcion {
-    text-align: right;
-  }
-
   .pdf-link {
-    width: 8rem;
+    width: auto;
   }
 
   .encuesta-seccion {
