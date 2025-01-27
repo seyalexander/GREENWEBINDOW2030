@@ -1,8 +1,7 @@
-
 .container-opciones {
   display: flex;
   gap: 1rem;
-  margin-top: 1REM;
+  margin-top: 1rem;
   justify-content: CENTER;
 }
 
@@ -61,9 +60,6 @@
 }
 
 @media (min-width: 601px) {
-
-
-
   .pdf-link {
     width: auto;
   }
@@ -72,11 +68,9 @@
     margin-top: 6rem;
   }
 
-
-.encuesta-contenido {
-  flex-direction: row;
-}
-
+  .encuesta-contenido {
+    flex-direction: row;
+  }
 }
 
 @media (min-width: 1025px) {
